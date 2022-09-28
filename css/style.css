@@ -43,3 +43,10 @@
     align-items: center;
     flex-basis: 15%;
 }
+
+/***************inizio main****************/
+
+.container{
+    width: 920px;
+    margin: auto;
+}
