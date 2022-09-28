@@ -12,14 +12,16 @@
 
 /*parte dei link*/
 .link-container{
-    border: 1px solid black;
     display: flex;
     align-items: center;
+    font-weight: bold;
+    flex-basis: 15%;
 }
 
 .nav-container .link-container ul{
     display: flex;
     list-style: none;
+    column-gap: 10px;
 }
 
 .nav-container .link-container ul a{
@@ -28,8 +30,9 @@
 }
 
 /*logo boolean*/
-.boolean-logo{
+.img-logo-container .boolean-logo{
     width: 100%;
+    flex-basis: 70%;
 }
 
 
@@ -37,4 +40,6 @@
 
 .entities-container{
     display: flex;
+    align-items: center;
+    flex-basis: 15%;
 }
