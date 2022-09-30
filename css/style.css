@@ -3,9 +3,18 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: rgba(255,105,0,255);
+}
+.container0{
+    width: 920px;
+    margin: auto;
+}
+
+
+
 .nav-container{
     display: flex;
-    background-color: rgba(255,105,0,255);
     justify-content: space-around;
 
 }
@@ -50,7 +59,7 @@
 .container{
     width: 920px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 66px;
     padding-bottom: 0px;
 }
 
@@ -135,8 +144,9 @@
     color: white;
 }
 
+/**************hover**************/
 
-.hover-img{
+.behind-img{
     width: 100%;
     position: absolute;
     top: 0;
@@ -145,21 +155,28 @@
     z-index: -1;
 }
 
-.img-container:hover .hover-img{
+.img-container:hover .behind-img{
     z-index: 1;
 }
+
+.cuore-container .behind{
+    z-index: 1;
+    color: red;
+}
+
+.img-container:hover .heart{
+    z-index: 1;
+    color: red;
+}
+
+
 
 
 /*******************BONUS*******************/
 
-.cuore-container .heart:hover{
-    color: red;
-}
 
-.img-container .levis-img .con-cappotto{
-    width: 100%;
-    position: absolute;
-}
+
+
 
 
 
