@@ -50,7 +50,8 @@
 .container{
     width: 920px;
     margin: auto;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 .card-container{
@@ -130,6 +131,24 @@
     font-size: 11px;
 }
 
+.social a{
+    color: white;
+}
+
+
+.hover-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.img-container:hover .hover-img{
+    z-index: 1;
+}
+
 
 /*******************BONUS*******************/
 
@@ -140,4 +159,16 @@
 .img-container .levis-img .con-cappotto{
     width: 100%;
     position: absolute;
+}
+
+
+
+/*****************fisso navbar****************/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
