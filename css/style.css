@@ -50,9 +50,7 @@
 .container{
     width: 920px;
     margin: auto;
-    border: 1px solid black;
     padding: 50px 0;
-
 }
 
 .card-container{
@@ -92,11 +90,14 @@
 .scontato{
     color: red;
     font-weight: bold;
+    font-size: 13px;
 }
 
 .non-scontato{
     color: gray;
     text-decoration: line-through;
+    font-size: 13px;
+
 }
 
 .cuore-container{
@@ -114,10 +115,29 @@
 
 
 
-/*parti dal mettere in flex il card-container2*/
-
-.card-container2{
+/*footer*/
+.foot-container{
+    width: 920px;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.foot-text{
+    font-size: 11px;
+}
+
+
+/*******************BONUS*******************/
+
+.cuore-container .heart:hover{
+    color: red;
+}
+
+.img-container .levis-img .con-cappotto{
+    width: 100%;
+    position: absolute;
 }
